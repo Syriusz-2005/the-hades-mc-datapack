@@ -1,0 +1,22 @@
+{
+  "feature": "hades:dripstone_cluster",
+  "placement": [
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "count",
+      "count": 10
+    },
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "solid"
+      }
+    }
+  ]
+}

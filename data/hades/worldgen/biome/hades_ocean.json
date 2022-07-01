@@ -1,0 +1,26 @@
+{
+    "temperature": 0.8,
+    "downfall": 0.4,
+    "precipitation": "none",
+    "effects": {
+      "sky_color": 7907327,
+      "fog_color": 0,
+      "water_color": 1976899,
+      "water_fog_color": 0,
+      "particle": {
+        "options": {
+          "type": "soul"
+        },
+        "probability": 0.001
+      }
+    },
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+      [ 
+        "hades:spike"
+      ]
+    ]
+  }
+  

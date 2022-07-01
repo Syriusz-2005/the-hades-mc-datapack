@@ -1,0 +1,21 @@
+{
+  "temperature": 0.9,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "effects": {
+    "sky_color": 9883901,
+    "fog_color": 16777215,
+    "water_color": 3589849,
+    "water_fog_color": 2476983,
+    "grass_color": 421675,
+    "foliage_color": 819
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "hades:spike"
+    ]
+  ]
+}

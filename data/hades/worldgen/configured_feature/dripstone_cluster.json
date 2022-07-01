@@ -1,0 +1,28 @@
+{
+  "type": "block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [ "air" ]
+    },
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "value": {
+            "min_inclusive": 5,
+            "max_inclusive": 40
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dripstone_block"
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

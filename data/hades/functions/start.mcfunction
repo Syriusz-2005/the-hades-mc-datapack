@@ -1,0 +1,1 @@
+tellraw @a {"text": "The hades datapack is enabled!"}

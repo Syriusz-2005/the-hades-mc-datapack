@@ -1,0 +1,27 @@
+{
+  "feature": "hades:spike",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "constant",
+        "value": {
+          "absolute": 0
+        }
+      }
+    },
+    {
+      "type": "count",
+      "count": 256
+    },
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:solid"
+      }
+    }
+  ]
+}
