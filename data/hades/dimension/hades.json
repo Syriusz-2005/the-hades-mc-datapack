@@ -21,7 +21,7 @@
           "biome": "hades:hades_highlands",
           "parameters": {
             "continentalness": 0.6,
-            "erosion": -0.5,
+            "erosion": 0.2,
             "temperature": 0.1,
             "depth": 0,
             "humidity": 0,

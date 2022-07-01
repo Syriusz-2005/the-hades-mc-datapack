@@ -7,7 +7,7 @@
       "type": "y_clamped_gradient",
       "from_y": 0,
       "to_y": 255,
-      "from_value": 0.7,
+      "from_value": 1.0,
       "to_value": -1
     }
   },
