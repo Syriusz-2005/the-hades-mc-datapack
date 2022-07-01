@@ -10,7 +10,7 @@
           "parameters": {
             "continentalness": -0.8,
             "erosion": 0.4,
-            "temperature": 0.3,
+            "temperature": -0.3,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -21,8 +21,20 @@
           "biome": "hades:hades_highlands",
           "parameters": {
             "continentalness": 0.6,
-            "erosion": 0.2,
+            "erosion": 0.6,
             "temperature": 0.1,
+            "depth": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "hades:hades_great_volcano",
+          "parameters": {
+            "continentalness": 0.7,
+            "erosion": -0.8,
+            "temperature": 0.5,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -34,7 +46,7 @@
           "parameters": {
             "continentalness": 0.6,
             "erosion": 1.0,
-            "temperature": 0.3,
+            "temperature": -0.1,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
