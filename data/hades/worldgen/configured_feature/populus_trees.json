@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "hades:populus/mega_populus"
+      },
+      {
+        "chance": 0.2,
+        "feature": "hades:populus/triangle_polpus"
+      },
+      {
+        "chance": 0.1,
+        "feature": "hades:populus/bushy_populus"
+      },
+      {
+        "chance": 0.05,
+        "feature": "hades:populus/flatleaf_populus"
+      },
+      {
+        "chance": 0.03,
+        "feature": "hades:populus/mega_bushy_populus"
+      }
+    ],
+    "default": "hades:populus/populus"
+  }
+}
