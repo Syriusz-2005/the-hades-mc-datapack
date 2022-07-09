@@ -21,7 +21,7 @@
           "biome": "hades:hades_highlands",
           "parameters": {
             "continentalness": 0.6,
-            "erosion": 0.6,
+            "erosion": 0.3,
             "temperature": 0.1,
             "depth": 0,
             "humidity": 0,
@@ -44,8 +44,8 @@
         {
           "biome": "hades:elysium",
           "parameters": {
-            "continentalness": 0.6,
-            "erosion": 1.0,
+            "continentalness": 0.4,
+            "erosion": 0.9,
             "temperature": -0.1,
             "depth": 0,
             "humidity": 0,

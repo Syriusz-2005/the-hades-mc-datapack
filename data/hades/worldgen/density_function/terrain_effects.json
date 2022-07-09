@@ -5,25 +5,5 @@
     "argument1": "minecraft:overworld/base_3d_noise",
     "argument2": 0.8
   },
-  "argument2": {
-    "type": "mul",
-    "argument1": "minecraft:overworld/caves/pillars",
-    "argument2": {
-      "type": "mul",
-      "argument1": {
-        "type": "add",
-        "argument1": {
-          "type": "mul",
-          "argument1": {
-            "type": "add",
-            "argument1": "hades:erosion",
-            "argument2": 1.0
-          },
-          "argument2": -0.5
-        },
-        "argument2": 1.0
-      },
-      "argument2": 0.4
-    }
-  }
+  "argument2": "hades:hades_pillars"
 }
