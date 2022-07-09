@@ -45,7 +45,7 @@
           "biome": "hades:elysium",
           "parameters": {
             "continentalness": 0.6,
-            "erosion": 0.94,
+            "erosion": 0.7,
             "temperature": 0,
             "depth": 0,
             "humidity": 0,
@@ -56,13 +56,13 @@
         {
           "biome": "hades:elysium_fields",
           "parameters": {
-            "continentalness": 0.2,
+            "continentalness": 0.0,
             "erosion": 0.9,
             "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.58
+            "offset": 0.1
           }
         },
         {
