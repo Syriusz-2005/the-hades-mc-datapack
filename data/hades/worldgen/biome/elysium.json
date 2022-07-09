@@ -15,7 +15,8 @@
   "carvers": {},
   "features": [
     [
-      "hades:spike"
+      "hades:spike",
+      "hades:elysium_grass_patch"
     ]
   ]
 }

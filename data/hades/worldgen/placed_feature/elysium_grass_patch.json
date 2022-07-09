@@ -1,0 +1,16 @@
+{
+  "feature": "hades:elysium_grass_patch",
+  "placement": [
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "count",
+      "count": 10
+    },
+    {
+      "type": "in_square"
+    }
+  ]
+}
