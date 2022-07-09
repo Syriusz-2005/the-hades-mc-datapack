@@ -7,6 +7,7 @@
     "fog_color": 0,
     "water_color": 1976899,
     "water_fog_color": 0,
+    "grass_color": 416541,
     "particle": {
       "options": {
         "type": "soul"

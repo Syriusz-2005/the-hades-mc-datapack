@@ -9,7 +9,7 @@
           "biome": "hades:hades_ocean",
           "parameters": {
             "continentalness": -0.8,
-            "erosion": 0.4,
+            "erosion": 0.3,
             "temperature": -0.3,
             "depth": 0,
             "humidity": 0,
@@ -21,7 +21,7 @@
           "biome": "hades:hades_highlands",
           "parameters": {
             "continentalness": 0.6,
-            "erosion": 0.4,
+            "erosion": 0.2,
             "temperature": 0.23,
             "depth": 0,
             "humidity": 0,
@@ -51,6 +51,18 @@
             "humidity": 0,
             "weirdness": 0,
             "offset": 0
+          }
+        },
+        {
+          "biome": "hades:elysium_fields",
+          "parameters": {
+            "continentalness": 0.4,
+            "erosion": 0.7,
+            "temperature": -0.1,
+            "depth": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0.37
           }
         }
       ]
