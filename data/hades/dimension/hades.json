@@ -76,6 +76,18 @@
             "weirdness": 0,
             "offset": 0
           }
+        },
+        {
+          "biome": "hades:lethe_river",
+          "parameters": {
+            "continentalness": 0.55,
+            "erosion": 0.45,
+            "temperature": 0,
+            "depth": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
         }
       ]
     },

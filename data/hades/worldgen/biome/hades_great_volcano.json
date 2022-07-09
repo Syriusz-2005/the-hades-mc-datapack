@@ -22,6 +22,9 @@
   "features": [
     [ 
       "hades:spike"
+    ],
+    [
+      "hades:ores/glided_blackstone"
     ]
   ]
 }
