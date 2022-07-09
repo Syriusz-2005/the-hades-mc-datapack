@@ -1,0 +1,31 @@
+{
+  "feature": "hades:elysium_bush",
+  "placement": [
+    {
+      "type": "heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "count",
+      "count": 10
+    },
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
+    }
+  ]
+}

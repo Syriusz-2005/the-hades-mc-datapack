@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:noise_threshold_provider",
+            "default_state": {
+              "Name": "minecraft:air"
+            },
+            "high_chance": 0.33333334,
+            "high_states": [
+              {
+                "Name": "minecraft:lily_of_the_valley"
+              },
+              {
+                "Name": "minecraft:azure_bluet"
+              }
+            ],
+            "low_states": [],
+            "noise": {
+              "amplitudes": [
+                1.0
+              ],
+              "firstOctave": 0
+            },
+            "scale": 0.005,
+            "seed": 2345,
+            "threshold": -0.8
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        },
+        {
+          "type": "environment_scan",
+          "direction_of_search": "down",
+          "allowed_search_condition": {
+            "type": "not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                  0,
+                  -1,
+                  0
+              ],
+              "blocks": "#hades:not_solid"
+            }
+          },
+          "max_steps": 1,
+          "target_condition": {
+            "type": "minecraft:true"
+          }
+        }
+      ]
+    },
+    "tries": 20,
+    "xz_spread": 6,
+    "y_spread": 2
+  }
+}
