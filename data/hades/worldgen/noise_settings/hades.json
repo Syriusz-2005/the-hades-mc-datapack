@@ -127,7 +127,7 @@
         "type": "condition",
         "if_true": {
           "type": "minecraft:biome",
-          "biome_is": ["hades:elysium", "hades:elysium_fields" ]
+          "biome_is": ["hades:elysium", "hades:elysium_fields", "hades:elysium_ocean" ]
         },
         "then_run": {
           "type": "sequence",

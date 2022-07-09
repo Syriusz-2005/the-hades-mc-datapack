@@ -8,9 +8,9 @@
         {
           "biome": "hades:hades_ocean",
           "parameters": {
-            "continentalness": -0.8,
-            "erosion": 0.3,
-            "temperature": -0.3,
+            "continentalness": -0.9,
+            "erosion": 0,
+            "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -22,7 +22,7 @@
           "parameters": {
             "continentalness": 0.6,
             "erosion": 0.2,
-            "temperature": 0.23,
+            "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -34,7 +34,7 @@
           "parameters": {
             "continentalness": 0.7,
             "erosion": -0.8,
-            "temperature": 0.6,
+            "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -44,9 +44,9 @@
         {
           "biome": "hades:elysium",
           "parameters": {
-            "continentalness": 0.4,
+            "continentalness": 0.6,
             "erosion": 0.94,
-            "temperature": -0.1,
+            "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -56,13 +56,25 @@
         {
           "biome": "hades:elysium_fields",
           "parameters": {
-            "continentalness": 0.4,
-            "erosion": 0.7,
-            "temperature": -0.1,
+            "continentalness": 0.2,
+            "erosion": 0.9,
+            "temperature": 0,
             "depth": 0,
             "humidity": 0,
             "weirdness": 0,
-            "offset": 0.37
+            "offset": 0.58
+          }
+        },
+        {
+          "biome": "hades:elysium_ocean",
+          "parameters": {
+            "continentalness": -0.9,
+            "erosion": 0.7,
+            "temperature": 0,
+            "depth": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
           }
         }
       ]
