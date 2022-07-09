@@ -8,7 +8,7 @@
     "water_color": 3589849,
     "water_fog_color": 2476983,
     "grass_color": 421675,
-    "foliage_color": 819
+    "foliage_color": 1789998
   },
   "spawners": {},
   "spawn_costs": {},
@@ -17,6 +17,9 @@
     [
       "hades:spike",
       "hades:elysium_grass_patch"
+    ],
+    [
+      "hades:populus_trees"
     ]
   ]
 }
