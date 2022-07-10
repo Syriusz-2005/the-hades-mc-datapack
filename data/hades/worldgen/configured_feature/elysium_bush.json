@@ -28,7 +28,7 @@
             },
             "scale": 0.005,
             "seed": 2345,
-            "threshold": -0.8
+            "threshold": -0.9
           }
         }
       },
@@ -64,6 +64,6 @@
     },
     "tries": 20,
     "xz_spread": 6,
-    "y_spread": 2
+    "y_spread": 10
   }
 }
