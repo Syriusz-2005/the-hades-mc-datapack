@@ -32,7 +32,7 @@
         {
           "biome": "hades:hades_ocean",
           "parameters": {
-            "continentalness": [ -0.5, -1.0 ],
+            "continentalness": [ -1.0, -0.5 ],
             "erosion": [ -1.0, 0.5 ],
             "temperature": 0,
             "depth": 0,

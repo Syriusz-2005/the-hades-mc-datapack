@@ -36,18 +36,25 @@
       "type": "add",
       "argument1": {
         "type": "range_choice",
-        "input": {
-          "type": "add",
-          "argument1": "hades:saddles/is_continentall",
-          "argument2": "hades:saddles/is_eroded"
-        },
-        "min_inclusive": 1.9,
-        "max_exclusive": 2.1,
+        "input": "hades:cliffiness",
+        "min_inclusive": 0.0,
+        "max_exclusive": 1.0,
         "when_in_range": {
           "type": "cache_2d",
-          "argument": -4.0
+          "argument": {
+            "type": "range_choice",
+            "input": "hades:saddles/is_saddle_combined",
+            "min_inclusive": 1.9,
+            "max_exclusive": 2.1,
+            "when_in_range": "hades:saddles/combined_density",
+            "when_out_of_range": {
+              "type": "mul",
+              "argument1": "hades:saddles/combined_density",
+              "argument2": 0.3
+            }
+          }
         },
-        "when_out_of_range": 0
+        "when_out_of_range": "hades:saddles/combined_density"
       },
       "argument2": 0
     }

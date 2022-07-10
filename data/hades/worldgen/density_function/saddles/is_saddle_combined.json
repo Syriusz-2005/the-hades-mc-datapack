@@ -1,0 +1,5 @@
+{
+  "type": "add",
+  "argument1": "hades:saddles/is_continentall",
+  "argument2": "hades:saddles/is_eroded"
+}
