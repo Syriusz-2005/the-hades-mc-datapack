@@ -45,7 +45,7 @@
         "max_exclusive": 2.1,
         "when_in_range": {
           "type": "cache_2d",
-          "argument": "hades:saddles/combined_density"
+          "argument": -4.0
         },
         "when_out_of_range": 0
       },

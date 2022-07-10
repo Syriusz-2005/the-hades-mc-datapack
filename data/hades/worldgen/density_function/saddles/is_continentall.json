@@ -1,10 +1,10 @@
 {
-  "type": "cache_all_in_cell",
+  "type": "cache_2d",
   "argument": {
     "type": "range_choice",
     "input": "hades:continentalness",
-    "min_inclusive": 0,
-    "max_exclusive": 0.6,
+    "min_inclusive": -0.4,
+    "max_exclusive": 1.0,
     "when_in_range": 1.0,
     "when_out_of_range": 0
   }

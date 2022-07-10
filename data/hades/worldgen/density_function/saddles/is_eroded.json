@@ -3,7 +3,7 @@
   "argument": {
     "type": "range_choice",
     "input": "hades:erosion",
-    "min_inclusive": 0,
+    "min_inclusive": 0.4,
     "max_exclusive": 0.5,
     "when_in_range": 1.0,
     "when_out_of_range": 0
