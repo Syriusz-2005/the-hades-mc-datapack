@@ -180,52 +180,6 @@
         }
       },
       {
-        "type": "condition",
-        "if_true": {
-          "type": "minecraft:biome",
-          "biome_is": [ "hades:lethe_river" ]
-        },
-        "then_run": {
-          "type": "sequence",
-          "sequence": [
-            {
-              "type": "condition",
-              "if_true": {
-                "type": "minecraft:y_above",
-                "anchor": {
-                  "absolute": 75
-                },
-                "surface_depth_multiplier": 1,
-                "add_stone_depth": false
-              },
-              "then_run": {
-                "type": "block",
-                "result_state": {
-                  "Name": "air"
-                }
-              }
-            },
-            {
-              "type": "condition",
-              "if_true": {
-                "type": "y_above",
-                "surface_depth_multiplier": 1,
-                "add_stone_depth": false,
-                "anchor": {
-                  "absolute": 60
-                }
-              },
-              "then_run": {
-                "type": "minecraft:block",
-                "result_state": {
-                  "Name": "minecraft:water"
-                }
-              }
-            }
-          ]
-        }
-      },
-      {
         "type": "minecraft:block",
         "result_state": {
           "Name": "blackstone"
