@@ -81,7 +81,7 @@
           "biome": "hades:lethe_river",
           "parameters": {
             "continentalness": [ -0.4, 0.1 ],
-            "erosion": [ -0.1, 0.1 ],
+            "erosion": [ -0.2, 0.1 ],
             "temperature": 0,
             "depth": 0,
             "humidity": 0,
