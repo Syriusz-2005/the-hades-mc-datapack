@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 10,
+    "salt": 21370
+  },
+  "structures": [
+    {
+      "structure": "hades:elysium_tower",
+      "weight": 10
+    }
+  ]
+}
