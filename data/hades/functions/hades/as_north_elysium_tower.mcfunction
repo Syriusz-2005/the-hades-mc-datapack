@@ -4,8 +4,10 @@ execute if score %timer_100_tick hades_timers matches 25 run summon area_effect_
 
 execute as @e[tag=hades_elysium_tower_particle_marker,tag=hades_started_north] at @s facing entity @e[tag=elysium_tower_storm_west,sort=nearest,limit=1,distance=..90] eyes run tp @s ^ ^ ^1
 
-execute if entity @p[distance=..80] if score @s hades_thunder_state matches ..10000 run scoreboard players add @s hades_thunder_state 1
-execute unless entity @p[distance=..80] if score @s hades_thunder_state matches 1.. run scoreboard players remove @s hades_thunder_state 1
+
+#elysium tower thunder operations
+execute if entity @a[distance=..80,gamemode=!spectator] unless score @s hades_thunder_state matches 10000.. run scoreboard players add @s hades_thunder_state 1
+execute unless entity @a[distance=..80,gamemode=!spectator] if score @s hades_thunder_state matches 1.. run scoreboard players remove @s hades_thunder_state 1
 
 execute if score @s hades_thunder_state matches 1200.. if score %timer_100_tick hades_timers matches 50 run scoreboard players set @a[distance=..40,gamemode=survival] hades_wind_timer 0
 
