@@ -4,7 +4,10 @@
     "Name": "minecraft:blackstone"
   },
   "default_fluid": {
-    "Name": "minecraft:water"
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "15"
+    }
   },
   "disable_mob_generation": true,
   "legacy_random_source": false,
