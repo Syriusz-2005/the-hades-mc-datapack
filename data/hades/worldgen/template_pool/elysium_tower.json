@@ -28,6 +28,15 @@
         "processors": "minecraft:empty"
       },
       "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:elysium_tower/elysium_tower_segment_side_tower"
+      },
+      "weight": 10
     }
   ]
 }
