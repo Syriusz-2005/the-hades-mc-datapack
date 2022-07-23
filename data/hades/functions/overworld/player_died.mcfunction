@@ -1,4 +1,3 @@
-scoreboard players reset @s death
 effect give @s resistance 15 6 true
 execute at @s run spawnpoint @s ~ ~ ~
 execute at @s in hades:hades run tp @s ~ 320 ~

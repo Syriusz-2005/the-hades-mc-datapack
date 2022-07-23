@@ -12,5 +12,6 @@ execute as @a[scores={hades.time_without_cobol=20..}] run scoreboard players res
 #execute as @a[tag=hades.has_cobol_in_inventory] run tellraw @s "has a tag"
 #execute as @a[tag=!hades.has_cobol_in_inventory] run tellraw @s "doesn't have a tag"
 
-execute as @a[scores={death=1..},tag=hades.has_cobol_in_inventory] run tellraw @a "test"
-execute as @a[scores={death=1..},tag=hades.has_cobol_in_inventory] run function hades:overworld/player_died
+execute as @a[scores={death=1..}] at @s if predicate hades:is_in_hades_dimension run function hades:overworld/player_died
+execute as @a[scores={death=1..},tag=hades.has_cobol_in_inventory] at @s unless predicate hades:is_in_hades_dimension run function hades:overworld/player_died
+execute as @a[scores={death=1..}] run scoreboard players reset @s death
