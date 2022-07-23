@@ -1,4 +1,3 @@
-
 #no storm
 execute if entity @p[distance=..115] run particle minecraft:electric_spark ~ ~ ~ 0.6 1 0.6 0 10 force
 
