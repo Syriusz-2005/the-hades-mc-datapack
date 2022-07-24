@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 5,
+    "salt": 230561
+  },
+  "structures": [
+    {
+      "structure": "hades:pilgrims_path_temple/temple_1",
+      "weight": 10
+    }
+  ]
+}
