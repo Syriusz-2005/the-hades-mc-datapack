@@ -303,14 +303,8 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_nugget"
-        }
-      ],
-      "functions": [
-        {
-          "function": "set_nbt",
-          "tag": "{Tag:\"obol\",display:{Name:'[{\"text\":\"Obol\",\"italic\":false,\"color\":\"yellow\"}]',Lore:['[{\"text\":\"The deceased were buried with an\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"obol placed in the mouth of the\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"corpse, so that — once a deceased\\'s\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"shade reached \",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"Hades \",\"italic\":true,\"color\":\"dark_red\"},{\"text\":\"— they would be\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"able to pay \",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"Charon\",\"italic\":true,\"color\":\"yellow\"},{\"text\":\" for passage across\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"the river \",\"italic\":false,\"color\":\"dark_gray\"},{\"text\":\"Styx\",\"italic\":true,\"color\":\"yellow\"},{\"text\":\".\",\"italic\":false,\"color\":\"dark_gray\"}]']}}"
+          "type": "minecraft:loot_table",
+          "name": "hades:items/obol"
         }
       ],
       "conditions": [
