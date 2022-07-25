@@ -19,6 +19,15 @@
         "location": "hades:pilgrims_path_temple/pilgrims_path_temple_fountain"
       },
       "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_courtyard_hall_corner"
+      },
+      "weight": 10
     }
   ]
 }
