@@ -1,0 +1,15 @@
+{
+  "name": "hades:pilgrims_path_temple/fountain_depth",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "feature": "hades:structures/pilgrims_temple_fountain"
+      },
+      "weight": 10
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
