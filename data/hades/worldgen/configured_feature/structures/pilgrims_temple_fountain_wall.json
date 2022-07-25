@@ -1,0 +1,33 @@
+{
+  "type": "block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "not",
+      "predicate": {
+        "type": "matching_blocks",
+        "blocks": "bedrock",
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    },
+    "direction": "down",
+    "layers": [
+      {
+        "height": {
+          "type": "constant",
+          "value": 256
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:polished_diorite"
+          }
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}
