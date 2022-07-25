@@ -2,7 +2,16 @@
   "type": "block_column",
   "config": {
     "allowed_placement": {
-      "type": "minecraft:true"
+      "type": "not",
+      "predicate": {
+        "type": "matching_blocks",
+        "blocks": "bedrock",
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
     },
     "direction": "down",
     "layers": [
@@ -19,6 +28,6 @@
         }
       }
     ],
-    "prioritize_tip": true
+    "prioritize_tip": false
   }
 }
