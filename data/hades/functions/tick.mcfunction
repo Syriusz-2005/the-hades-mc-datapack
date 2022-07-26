@@ -8,7 +8,7 @@ function hades:overworld/kill_tick
 execute as @e[tag=firework_marker] at @s run tp @s ~ ~-1.5 ~
 execute as @e[tag=firework_marker] at @s run particle minecraft:soul_fire_flame ~ ~ ~ 10 10 10 0.1 20 force
 
-effect give @a[tag=builder] night_vision 99 1 true
+effect give @a[tag=builder] night_vision 20 1 true
 
 
 scoreboard players add %timer_10_tick hades_timers 1
