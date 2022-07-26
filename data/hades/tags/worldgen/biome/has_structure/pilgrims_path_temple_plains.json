@@ -8,6 +8,8 @@
     "forest",
     "birch_forest",
     "old_growth_birch_forest",
-    "flower_forest"
+    "flower_forest",
+
+    "#hades:is_hades_biome"
   ]
 }
