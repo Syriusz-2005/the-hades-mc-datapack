@@ -1,0 +1,51 @@
+{
+  "name": "hades:pilgrims_path_temple/underground/main",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/underground/fountain"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/underground/road"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/underground/cross"
+      },
+      "weight": 3
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/underground/building_1"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/underground/building_2"
+      },
+      "weight": 6
+    }
+  ]
+}

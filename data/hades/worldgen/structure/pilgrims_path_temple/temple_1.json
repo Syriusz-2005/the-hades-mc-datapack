@@ -1,6 +1,6 @@
 {
   "type": "jigsaw",
-  "biomes": "#hades:any_overworld_biome",
+  "biomes": "#hades:has_structure/pilgrims_path_temple_plains",
   "terrain_adaptation": "beard_thin",
   "use_expansion_hack": false,
   "start_jigsaw_name": "hades:the_pilgrims_path_temple_start",
