@@ -1,0 +1,32 @@
+{
+  "name": "hades:pilgrims_path_temple/temple_1_garden",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_garden_path_1"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_garden_path_2"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      },
+      "weight": 10
+    }
+  ]
+}

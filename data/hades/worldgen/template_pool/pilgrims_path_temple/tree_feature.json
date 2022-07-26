@@ -1,0 +1,15 @@
+{
+  "name": "hades:pilgrims_path_temple/tree_feature",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:feature_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "feature": "minecraft:trees_flower_forest"
+      },
+      "weight": 10
+    }
+  ]
+}
