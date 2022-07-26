@@ -1,4 +1,17 @@
 {
   "feature": "hades:structures/pilgrims_temple_fountain",
-  "placement": []
+  "placement": [
+    {
+      "type": "height_range",
+       "height": {
+          "type": "uniform",
+          "min_inclusive": {
+            "above_bottom": 5
+          },
+          "max_inclusive": {
+            "above_bottom": 8
+          }
+       }
+    }
+  ]
 }

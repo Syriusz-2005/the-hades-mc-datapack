@@ -5,20 +5,35 @@
       "type": "not",
       "predicate": {
         "type": "matching_blocks",
-        "blocks": "bedrock",
+        "blocks": "dried_kelp_block",
         "offset": [
           0,
-          -1,
+          -2,
           0
         ]
       }
     },
-    "direction": "down",
+    "direction": "up",
     "layers": [
       {
         "height": {
+          "type": "biased_to_bottom",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 2
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:soul_sand"
+          }
+        }
+      },
+      {
+        "height": {
           "type": "constant",
-          "value": 256
+          "value": 312
         },
         "provider": {
           "type": "minecraft:simple_state_provider",
