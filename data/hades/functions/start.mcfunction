@@ -1,3 +1,5 @@
+#declare tag hades.fountain_soul_sand_provider "Is used to add souls sand in the bottom of the fountain"
+
 
 #needed for the datapack to work properly
 gamerule doImmediateRespawn true
