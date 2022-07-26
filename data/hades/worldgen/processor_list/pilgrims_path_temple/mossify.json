@@ -1,0 +1,22 @@
+{
+  "processors": [
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "random_block_match",
+            "block": "stone_bricks",
+            "probability": 0.099
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          }
+        }
+      ]
+    }
+  ]
+}
