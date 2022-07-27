@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "name": "hades:greek_tomb/burial_chamber",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "hades:greek_tomb/burial_chamber",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "empty"
+      }
+    }
+  ]
+}

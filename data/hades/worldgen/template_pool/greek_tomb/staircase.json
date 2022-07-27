@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "name": "hades:greek_tomb/staircase",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "hades:greek_tomb/staircase",
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:reduce_cobwebs_80p"
+      }
+    }
+  ]
+}
