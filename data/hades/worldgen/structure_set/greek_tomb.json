@@ -1,0 +1,14 @@
+{
+  "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 32,
+      "separation": 16,
+      "salt": 30071419
+  },
+  "structures": [
+    {
+      "weight": 1,
+      "structure": "hades:greek_tomb"
+    }
+  ]
+}
