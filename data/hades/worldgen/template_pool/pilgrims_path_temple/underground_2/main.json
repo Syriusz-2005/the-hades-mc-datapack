@@ -4,10 +4,37 @@
   "elements": [
     {
       "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "processors": "hades:pilgrims_path_temple/mossify",
-          "location": "hades:pilgrims_path_temple/underground_2/fountain"
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/mossify",
+        "location": "hades:pilgrims_path_temple/underground_2/fountain"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/mossify",
+        "location": "hades:pilgrims_path_temple/underground_2/fountain_top"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/mossify",
+        "location": "hades:pilgrims_path_temple/underground_2/hall_side"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/mossify",
+        "location": "hades:pilgrims_path_temple/underground_2/hall_side_top"
       },
       "weight": 10
     },
@@ -16,16 +43,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "processors": "hades:pilgrims_path_temple/mossify",
-          "location": "hades:pilgrims_path_temple/underground_2/fountain_top"
-      },
-      "weight": 10
-    },
-    {
-      "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "processors": "hades:pilgrims_path_temple/mossify",
-          "location": "hades:pilgrims_path_temple/underground_2/hall_side"
+          "location": "hades:pilgrims_path_temple/underground_2/hall_corner"
       },
       "weight": 10
     }
