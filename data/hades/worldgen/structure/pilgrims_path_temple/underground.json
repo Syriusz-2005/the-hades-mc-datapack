@@ -6,7 +6,32 @@
   "start_jigsaw_name": "hades:the_pilgrims_path_temple_start",
   "max_distance_from_center": 100,
   "size": 2,
-  "spawn_overrides": {},
+  "spawn_overrides": {
+    "ambient": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "misc": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "underground_water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  },
   "start_height": {
     "absolute": -20
   },
