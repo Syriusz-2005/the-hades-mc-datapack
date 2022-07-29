@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "item",
+          "name": "golden_chestplate",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_enchantments",
+              "add": true,
+              "enchantments": {
+                "unbreaking": {
+                  "min": 2,
+                  "max": 4
+                },
+                "projectile_protection": {
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_boots",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_enchantments",
+              "add": true,
+              "enchantments": {
+                "blast_protection": {
+                  "min": 2,
+                  "max": 8
+                },
+                "unbreaking": {
+                  "min": 2,
+                  "max": 5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_leggings",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_enchantments",
+              "add": true,
+              "enchantments": {
+                "unbreaking": {
+                  "min": 2,
+                  "max": 5
+                },
+                "fire_protection": {
+                  "min": 2,
+                  "max": 7
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "golden_helmet",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_enchantments",
+              "add": true,
+              "enchantments": {
+                "unbreaking": {
+                  "min": 3,
+                  "max": 5
+                },
+                "protection": {
+                  "min": 4,
+                  "max": 7
+                }
+              }
+            }
+          ]
+        }  
+      ],
+      "rolls": 3
+    },
+    {
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "hades:chests/pilgrims_path_temple/underground/common"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

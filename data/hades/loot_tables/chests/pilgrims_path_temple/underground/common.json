@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "item",
+          "name": "cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "add": true,
+              "count": {
+                "min": 4,
+                "max": 33
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "water_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "add": true,
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_bars",
+          "functions": [
+            {
+              "function": "set_count",
+               "count": {
+                  "min": 2,
+                  "max": 32
+               }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "chain",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 40,
+                "max": 200
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
