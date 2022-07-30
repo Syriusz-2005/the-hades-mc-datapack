@@ -1,0 +1,15 @@
+{
+  "name": "hades:pilgrims_path_temple/plains/start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "minecraft:empty",
+        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_fountain"
+      },
+      "weight": 10
+    }
+  ]
+}

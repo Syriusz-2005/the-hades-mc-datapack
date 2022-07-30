@@ -1,0 +1,15 @@
+{
+  "fallback": "minecraft:empty",
+  "name": "hades:pilgrims_path_temple/warm/start",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/fountain"
+      },
+      "weight": 10
+    }
+  ]
+}
