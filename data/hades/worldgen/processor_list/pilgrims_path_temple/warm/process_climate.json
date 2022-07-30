@@ -1,0 +1,61 @@
+{
+  "processors": [
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "dirt"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "dirt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "red_sand"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "red_sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "tag_match",
+            "tag": "minecraft:terracotta"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "terracotta"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "sand"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "sand"
+          }
+        }
+      ]
+    }
+  ]
+}

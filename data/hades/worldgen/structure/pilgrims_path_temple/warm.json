@@ -1,0 +1,16 @@
+{
+  "type": "jigsaw",
+  "biomes": "#hades:has_structure/pilgrims_path_temple_warm",
+  "max_distance_from_center": 80,
+  "project_start_to_heightmap": "MOTION_BLOCKING",
+  "size": 3,
+  "start_jigsaw_name": "hades:the_pilgrims_path_temple_start",
+  "spawn_overrides": {},
+  "start_height": {
+    "absolute": 1
+  },
+  "start_pool": "hades:pilgrims_path_temple/warm/main",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "use_expansion_hack": false
+}

@@ -13,6 +13,10 @@
     {
       "structure": "hades:pilgrims_path_temple/underground",
       "weight": 10
+    },
+    {
+      "structure": "hades:pilgrims_path_temple/warm",
+      "weight": 10
     }
   ]
 }
