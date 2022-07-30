@@ -1,7 +1,7 @@
 {
   "type": "jigsaw",
   "biomes": "#hades:has_structure/pilgrims_path_temple_underground",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "bury",
   "use_expansion_hack": false,
   "start_jigsaw_name": "hades:the_pilgrims_path_temple_start",
   "max_distance_from_center": 100,
@@ -35,6 +35,6 @@
   "start_height": {
     "absolute": -20
   },
-  "start_pool": "hades:pilgrims_path_temple/underground_2/main",
-  "step": "vegetal_decoration"
+  "start_pool": "hades:pilgrims_path_temple/underground_2/start",
+  "step": "underground_structures"
 }

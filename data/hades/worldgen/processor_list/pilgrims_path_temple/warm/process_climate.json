@@ -1,0 +1,92 @@
+{
+  "processors": [
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "random_block_match",
+            "block": "dirt_path",
+            "probability": 0.096
+          },
+          "output_state": {
+            "Name": "sandstone"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "dirt"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "dirt"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "grass_block"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "grass_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "red_sand"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "red_sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "tag_match",
+            "tag": "minecraft:terracotta"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "terracotta"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "sand"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "sand"
+          }
+        }
+      ]
+    }
+  ]
+}

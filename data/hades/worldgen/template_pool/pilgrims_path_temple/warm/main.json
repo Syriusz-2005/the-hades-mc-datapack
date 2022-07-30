@@ -1,0 +1,69 @@
+{
+  "fallback": "minecraft:empty",
+  "name": "hades:pilgrims_path_temple/warm/main",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_1"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_2"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_3"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_4"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_5"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/fountain"
+      },
+      "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/path"
+      },
+      "weight": 10
+    }
+  ]
+}
