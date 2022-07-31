@@ -1,6 +1,9 @@
 {
   "type": "minecraft:random_patch",
   "config": {
+    "tries": 96,
+    "xz_spread": 7,
+    "y_spread": 3,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",
@@ -8,7 +11,7 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:grass"
+              "Name": "minecraft:moss_carpet"
             }
           }
         }
@@ -24,19 +27,19 @@
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:matching_block_tag",
-            "tag": "minecraft:dirt",
-            "offset": [
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
                 0,
                 -1,
                 0
-            ]
+              ],
+              "blocks": "minecraft:moss_carpet"
+            }
           }
         }
       ]
-    },
-    "tries": 64,
-    "xz_spread": 16,
-    "y_spread": 2
+    }
   }
 }

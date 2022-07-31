@@ -32,7 +32,7 @@
               ]
             },
             "tries": 30,
-            "xz_spread": 7,
+            "xz_spread": 5,
             "y_spread": 3
           }
         },
@@ -64,8 +64,8 @@
                 }
               ]
             },
-            "tries": 30,
-            "xz_spread": 15,
+            "tries": 20,
+            "xz_spread": 7,
             "y_spread": 4
           }
         },

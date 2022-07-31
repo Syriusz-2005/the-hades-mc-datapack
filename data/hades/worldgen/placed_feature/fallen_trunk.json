@@ -1,17 +1,6 @@
 {
-  "feature": "hades:elysium_bush",
+  "feature": "hades:fallen_trunk",
   "placement": [
-    {
-      "type": "heightmap",
-      "heightmap": "OCEAN_FLOOR"
-    },
-    {
-      "type": "count",
-      "count": 2
-    },
-    {
-      "type": "minecraft:biome"
-    },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {

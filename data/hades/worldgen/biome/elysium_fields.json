@@ -7,8 +7,8 @@
     "fog_color": 9540292,
     "water_color": 1737654,
     "water_fog_color": 1737654,
-    "grass_color": 416541,
-    "foliage_color": 2129468
+    "grass_color": 694321,
+    "foliage_color": 2127140
   },
   "spawners": {},
   "spawn_costs": {},
@@ -22,7 +22,7 @@
       "hades:populus_trees_rare"
     ],
     [
-      "hades:elysium_bush",
+      "hades:patch_flowers_elysium",
       "hades:elysium_rock"
     ]
   ]
