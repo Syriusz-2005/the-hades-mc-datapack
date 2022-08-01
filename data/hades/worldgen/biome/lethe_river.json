@@ -22,6 +22,9 @@
     "features": [
       [
         "hades:spike"
+      ],
+      [
+        "hades:hades/grape_vines"
       ]
     ]
   }
