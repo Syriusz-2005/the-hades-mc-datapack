@@ -1,0 +1,1 @@
+execute if entity @p[distance=]
