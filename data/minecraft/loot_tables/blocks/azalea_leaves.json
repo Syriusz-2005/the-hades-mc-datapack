@@ -154,7 +154,6 @@
               "condition": "minecraft:block_state_property",
               "block": "minecraft:azalea_leaves",
               "properties": {
-                "distance": "5",
                 "persistent": "false"
               }
             },
