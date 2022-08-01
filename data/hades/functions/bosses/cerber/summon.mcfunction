@@ -1,0 +1,1 @@
+summon wolf ~ ~ ~ {Tags: ["hades.cerber"]}

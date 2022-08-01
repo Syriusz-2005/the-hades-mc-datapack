@@ -10,6 +10,8 @@
     "old_growth_birch_forest",
     "flower_forest",
 
-    "#hades:is_hades_biome"
+    "hades:elysium",
+    "hades:elysium_fields",
+    "hades:hades_highlands"
   ]
 }
