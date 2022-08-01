@@ -1,4 +1,5 @@
 #declare tag hades.fountain_soul_sand_provider "Is used to add souls sand in the bottom of the fountain"
+#declare tag hades.fountain_teleport_provider "It is used to add teleport functionality for the pilgrim's path temple"
 
 
 #needed for the datapack to work properly
