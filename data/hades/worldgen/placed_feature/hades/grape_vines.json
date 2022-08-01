@@ -1,0 +1,23 @@
+{
+  "feature": "hades:hades/grape_vines",
+  "placement": [
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "count",
+      "count": 100
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "biome"
+    },
+    {
+      "type": "rarity_filter",
+      "chance": 2
+    }
+  ]
+}
