@@ -3,6 +3,8 @@ execute in hades:hades run function hades:hades/biome_tick
 execute in hades:hades run function hades:hades/structure_tick
 execute as @e[type=marker,tag=hades.fountain_soul_sand_provider] at @s run function hades:overworld/soul_sand_provider/run
 
+
+function hades:hades/pilgrims_path_temple/tick
 function hades:overworld/kill_tick
 
 execute as @e[tag=firework_marker] at @s run tp @s ~ ~-1.5 ~

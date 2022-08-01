@@ -9,6 +9,7 @@ scoreboard objectives add death deathCount
 scoreboard objectives add hades_timers dummy
 scoreboard objectives add hades_thunder_state dummy
 scoreboard objectives add hades_wind_timer dummy
+scoreboard objectives add hades.teleport_timer dummy
 
 scoreboard objectives add hades.time_without_cobol dummy
 
