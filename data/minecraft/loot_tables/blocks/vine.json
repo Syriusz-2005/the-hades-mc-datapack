@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "location_check",
+          "predicate": {
+            "dimension": "hades:hades"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "hades:items/grapes",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "location_check",
+            "predicate": {
+              "dimension": "hades:hades"
+            }
+          }
+        },
+        {
+          "condition": "match_tool",
+          "predicate": {
+            "items": [ "shears" ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "vine"
+        }
+      ]
+    }
+  ]
+}
