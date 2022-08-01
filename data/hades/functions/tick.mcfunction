@@ -7,6 +7,7 @@ execute as @e[type=marker,tag=hades.fountain_soul_sand_provider] at @s run funct
 function hades:hades/pilgrims_path_temple/tick
 function hades:overworld/kill_tick
 function hades:items/tick
+function hades:bosses/tick
 
 execute as @e[tag=firework_marker] at @s run tp @s ~ ~-1.5 ~
 execute as @e[tag=firework_marker] at @s run particle minecraft:soul_fire_flame ~ ~ ~ 10 10 10 0.1 20 force
