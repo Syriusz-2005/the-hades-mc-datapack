@@ -3,6 +3,10 @@
   "config": {
     "features": [
       {
+        "chance": 0.1,
+        "feature": "hades:olive_tree"
+      },
+      {
         "chance": 0.3,
         "feature": "hades:populus/mega_populus"
       },
