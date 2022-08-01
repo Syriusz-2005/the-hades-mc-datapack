@@ -3,7 +3,13 @@
   "placement": [
     {
       "type": "count",
-      "count": 1
+      "count": {
+        "type": "biased_to_bottom",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 3
+        }
+      }
     },
     {
       "type": "in_square"

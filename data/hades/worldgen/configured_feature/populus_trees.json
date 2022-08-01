@@ -19,6 +19,10 @@
         "feature": "hades:populus/flatleaf_populus"
       },
       {
+        "chance": 0.04,
+        "feature": "hades:fallen_trunk"
+      },
+      {
         "chance": 0.03,
         "feature": "hades:populus/mega_bushy_populus"
       }
