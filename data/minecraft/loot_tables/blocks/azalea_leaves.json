@@ -151,6 +151,20 @@
           "name": "hades:items/olives",
           "conditions": [
             {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:azalea_leaves",
+              "properties": {
+                "distance": "5",
+                "persistent": "false"
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "dimension": "hades:hades"
+              }
+            },
+            {
               "condition": "minecraft:survives_explosion"
             },
             {
