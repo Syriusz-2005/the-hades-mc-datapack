@@ -11,3 +11,6 @@ summon villager ~ ~ ~ {ArmorItems:[ {id: "minecraft:acacia_door", Count: 1b} ],V
 give @s enchanted_book{Enchantments:[{id: "sharpness", lvl: 10}]}
 
 summon marker ~ ~ ~ {Tags: ["hades.fountain_teleport_provider"]}
+
+
+give @s chest{BlockEntityTag:{LootTable: "hades:chests/elysium_tower/side_tower"}}
