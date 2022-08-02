@@ -4,7 +4,7 @@
       "item": "glass_bottle"
     },
     "title": "Who am I? A fish!",
-    "description": "Clear your brain by swimming in the lethe river",
+    "description": "Clear your mind by swimming in the lethe river",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
