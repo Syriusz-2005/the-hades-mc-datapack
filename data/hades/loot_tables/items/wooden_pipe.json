@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": "Pipe"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData: 7411004,Tag: \"hades.wodden_pipe\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
