@@ -5,8 +5,8 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "item",
-          "name": "carrot_on_a_stick",
+          "type": "loot_table",
+          "name": "hades:items/wooden_pipe",
           "functions": [
             {
               "function": "set_count",
@@ -14,14 +14,6 @@
                 "min": 0,
                 "max": 2
               }
-            },
-            {
-              "function": "set_name",
-              "name": "Pipe"
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData: 7411004,Tag: \"hades.wodden_pipe\"}"
             }
           ]
         }
