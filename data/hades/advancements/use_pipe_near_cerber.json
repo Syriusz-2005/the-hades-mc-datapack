@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "carrot_on_a_stick",
+      "nbt": "{CustomModelData: 52643}"
+    },
+    "title": "The power of sound!",
+    "description": "Use the pipe to slow down the cerber",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "hades:went_to_the_hades",
+  "requirements": [
+    ["requirement"]
+  ]
+}

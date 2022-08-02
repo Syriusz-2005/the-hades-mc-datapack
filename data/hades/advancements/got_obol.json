@@ -4,7 +4,7 @@
       "item": "gold_nugget",
       "nbt": "{Tag:\"obol\",CustomModelData:7411001}"
     },
-    "title": "I found somethink...",
+    "title": "It smells like gold...",
     "description": "Find an obol",
     "announce_to_chat": true,
     "hidden": false,
