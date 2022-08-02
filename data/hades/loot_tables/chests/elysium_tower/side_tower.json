@@ -18,6 +18,32 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "map",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.6
+            }
+          ],
+          "functions": [
+            {
+              "function": "exploration_map",
+              "destination": "hades:is_pilgrims_path_temple",
+              "decoration": "red_x",
+              "search_radius": 100,
+              "skip_existing_chunks": false,
+              "zoom": 1
+            }
+          ]
+        }
+      ]
     }
   ]
 }
