@@ -1,5 +1,5 @@
 {
-  "feature": "hades:populus_trees",
+  "feature": "hades:elysium_trees",
   "placement": [
     {
       "type": "minecraft:count",
@@ -30,6 +30,10 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "rarity_filter",
+      "chance": 10
     }
   ]
 }
