@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "blackstone"
+      "item": "water_bucket"
     },
-    "title": "\"No, I'm just on vacation!\"",
-    "description": "Purposely (or accidentally) visit the hades",
+    "title": "Who am I? A fish!",
+    "description": "Clear your mind by swimming in the lethe river",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
@@ -15,13 +15,16 @@
       "conditions": {
         "player": {
           "location": {
-            "dimension": "hades:hades"
+            "biome": "hades:lethe_river",
+            "fluid": {
+              "fluid": "water"
+            }
           }
         }
       }
     }
   },
-  "parent": "hades:got_obol",
+  "parent": "hades:go_to_the_hades",
   "requirements": [
     ["requirement"]
   ]

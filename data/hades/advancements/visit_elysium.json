@@ -21,7 +21,7 @@
       }
     }
   },
-  "parent": "hades:went_to_the_hades",
+  "parent": "hades:go_to_the_hades",
   "requirements": [
     ["requirement"]
   ]
