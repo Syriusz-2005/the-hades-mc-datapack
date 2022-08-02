@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blackstone"
+		},
+		"title": "The hades",
+		"frame": "challenge",
+		"description": ["Discover the minecraft's most mysterious dimension"],
+		"background": "minecraft:textures/block/blackstone.png",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
