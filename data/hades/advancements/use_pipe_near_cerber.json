@@ -5,7 +5,7 @@
       "nbt": "{CustomModelData: 52643}"
     },
     "title": "The power of sound!",
-    "description": "Use the pipe to slow down the cerber",
+    "description": "Use the pipe to slow down the Cerberus",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
