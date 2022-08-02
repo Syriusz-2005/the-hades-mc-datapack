@@ -13,7 +13,7 @@
       "functions": [
         {
           "function": "set_nbt",
-          "tag": "{Tag: \"hades.grapes_purple\", CustomModelData: 97812}"
+          "tag": "{Tag: \"hades.grapes_purple\", CustomModelData: 7411003}"
         },
         {
           "function": "set_name",
