@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "gold_nugget",
+      "nbt": "{Tag:\"obol\",CustomModelData:7411001}"
+    },
+    "title": "It smells like gold...",
+    "description": "Find an obol",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "goal"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gold_nugget"
+            ],
+            "nbt": "{Tag: \"obol\"}"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "hades:hades",
+  "requirements": [
+    ["requirement"]
+  ]
+}

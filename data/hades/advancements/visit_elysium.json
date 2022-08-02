@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "grass_block"
+    },
+    "title": "The echo land",
+    "description": "Discover that in Elysium the only need is the concentration",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "hades:elysium"
+          }
+        }
+      }
+    }
+  },
+  "parent": "hades:went_to_the_hades",
+  "requirements": [
+    ["requirement"]
+  ]
+}

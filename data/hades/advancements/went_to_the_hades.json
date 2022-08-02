@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "blackstone"
+    },
+    "title": "No, I'm just on vacation!",
+    "description": "Purposly (or accidentially) visit the hades",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "hades:hades"
+          }
+        }
+      }
+    }
+  },
+  "parent": "hades:got_obol",
+  "requirements": [
+    ["requirement"]
+  ]
+}

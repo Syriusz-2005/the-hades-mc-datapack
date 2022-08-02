@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "glass_bottle"
+    },
+    "title": "Who am I? A fish!",
+    "description": "Clear your brain by swimming in the lethe river",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "hades:lethe_river",
+            "fluid": {
+              "fluid": "water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "hades:went_to_the_hades",
+  "requirements": [
+    ["requirement"]
+  ]
+}
