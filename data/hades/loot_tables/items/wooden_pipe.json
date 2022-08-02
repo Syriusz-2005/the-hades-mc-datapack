@@ -9,12 +9,8 @@
           "name": "carrot_on_a_stick",
           "functions": [
             {
-              "function": "set_name",
-              "name": "Pipe"
-            },
-            {
               "function": "set_nbt",
-              "tag": "{CustomModelData: 7411004,Tag: \"hades.wodden_pipe\"}"
+              "tag": "{CustomModelData: 7411004,Tag: \"hades.wodden_pipe\",display:{Name:'[{\"text\":\"Wooden pipe\",\"italic\":false,\"color\":\"yellow\"}]'}}"
             }
           ]
         }

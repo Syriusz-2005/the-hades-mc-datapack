@@ -4,7 +4,7 @@
       "item": "grass_block"
     },
     "title": "The echo land",
-    "description": "Discover that in Elysium the only need is the concentration",
+    "description": "Discover that concentration is the only need in Elysium",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
@@ -21,7 +21,7 @@
       }
     }
   },
-  "parent": "hades:went_to_the_hades",
+  "parent": "hades:go_to_the_hades",
   "requirements": [
     ["requirement"]
   ]

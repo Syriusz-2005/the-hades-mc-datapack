@@ -5,7 +5,7 @@
 		},
 		"title": "The hades",
 		"frame": "challenge",
-		"description": ["Discover the minecraft's most mysterious dimension"],
+		"description": ["Discover the most mysterious dimension of Minecraft"],
 		"background": "minecraft:textures/block/blackstone.png",
 		"show_toast": false,
 		"announce_to_chat": false
