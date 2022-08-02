@@ -1,0 +1,8 @@
+{
+  "type": "range_choice",
+  "input": "hades:saddles/is_saddle_combined",
+  "when_in_range": 1.0,
+  "when_out_of_range": 0.0,
+  "min_inclusive": 1.9,
+  "max_exclusive": 2.1
+}

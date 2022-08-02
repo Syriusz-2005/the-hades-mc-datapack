@@ -8,8 +8,8 @@
         {
           "biome": "hades:hades_highlands",
           "parameters": {
-            "continentalness": [ -0.5, 0.5 ],
-            "erosion": [ -1.0, -0.2 ],
+            "continentalness": [ -0.5, 0.9 ],
+            "erosion": [ -0.8, -0.0 ],
             "temperature": 0,
             "depth": 0,
             "humidity": 0,
@@ -21,7 +21,7 @@
           "biome": "hades:hades_great_volcano",
           "parameters": {
             "continentalness": [ 0.5, 1.0 ],
-            "erosion": [ -1.0, -0.6 ],
+            "erosion": [ -1.0, -0.4 ],
             "temperature": 0,
             "depth": 0,
             "humidity": 0,
