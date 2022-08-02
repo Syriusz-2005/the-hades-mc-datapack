@@ -8,4 +8,4 @@ execute as @a at @s if predicate hades:is_in_hades_dimension unless entity @e[ta
 execute as @a at @s if predicate hades:is_in_hades_dimension if entity @e[tag=hades.fountain_teleport_provider,distance=..12] unless block ~ ~ ~ water run scoreboard players reset @s hades.teleport_timer
 
 
-execute as @a[scores={hades.teleport_timer=40..}] at @s in minecraft:overworld run tp ~ -52 ~
+execute as @a[scores={hades.teleport_timer=40..}] at @s in minecraft:overworld run tp ~ -50 ~
