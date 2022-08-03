@@ -14,3 +14,6 @@ summon marker ~ ~ ~ {Tags: ["hades.fountain_teleport_provider"]}
 
 
 give @s chest{BlockEntityTag:{LootTable: "hades:chests/elysium_tower/side_tower"}}
+
+
+summon marker ~ ~ ~ {Tags:["hades.cerberus_spawner"]}

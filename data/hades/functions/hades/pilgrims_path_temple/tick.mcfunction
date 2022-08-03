@@ -10,3 +10,8 @@ execute as @a at @s if predicate hades:is_in_hades_dimension if entity @e[tag=ha
 
 execute as @a[scores={hades.teleport_timer=40..}] at @s in minecraft:overworld run tp ~ -50 ~
 execute as @a[scores={hades.teleport_timer=40..}] run effect give @s levitation 6 255 true
+
+
+#spawning cerberus
+execute as @e[tag=hades.cerberus_spawner] at @s if predicate hades:is_in_hades_dimension run function hades:bosses/cerber/summon
+execute as @e[tag=hades.cerberus_spawner] run kill @s
