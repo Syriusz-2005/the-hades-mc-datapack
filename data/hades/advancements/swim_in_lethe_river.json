@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "glass_bottle"
+      "item": "water_bucket"
     },
     "title": "Who am I? A fish!",
-    "description": "Clear your brain by swimming in the lethe river",
+    "description": "Clear your mind by swimming in the lethe river",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
@@ -24,7 +24,7 @@
       }
     }
   },
-  "parent": "hades:went_to_the_hades",
+  "parent": "hades:go_to_the_hades",
   "requirements": [
     ["requirement"]
   ]

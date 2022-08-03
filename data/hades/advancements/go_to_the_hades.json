@@ -3,8 +3,8 @@
     "icon": {
       "item": "blackstone"
     },
-    "title": "No, I'm just on vacation!",
-    "description": "Purposly (or accidentially) visit the hades",
+    "title": "\"No, I'm just on vacation!\"",
+    "description": "Purposely (or accidentally) visit the hades",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
@@ -21,7 +21,7 @@
       }
     }
   },
-  "parent": "hades:got_obol",
+  "parent": "hades:get_obol",
   "requirements": [
     ["requirement"]
   ]

@@ -4,7 +4,7 @@
       "item": "carrot_on_a_stick",
       "nbt": "{CustomModelData: 7411004}"
     },
-    "title": "The power of sound!",
+    "title": "The power of music!",
     "description": "Use the pipe to slow down the Cerberus",
     "announce_to_chat": true,
     "hidden": false,
@@ -15,7 +15,7 @@
       "trigger": "impossible"
     }
   },
-  "parent": "hades:went_to_the_hades",
+  "parent": "hades:go_to_the_hades",
   "requirements": [
     ["requirement"]
   ]
