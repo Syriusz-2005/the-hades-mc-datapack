@@ -1,1 +1,1 @@
-summon wolf ~ ~ ~ {Tags: ["hades.cerber"],Attributes: [ { Name: "minecraft:generic.movement_speed", Base: 0.5 }, { Name: "generic.max_health", Base: 100}, { Name: "generic.attack_damage", Base: 20 } ], Health: 100, Invulnerable: true, PersistenceRequired: true}
+summon wolf ~ ~ ~ {Tags: ["hades.cerber"],Attributes: [ { Name: "minecraft:generic.movement_speed", Base: 0.45 }, { Name: "generic.max_health", Base: 100}, { Name: "generic.attack_damage", Base: 20 } ], Health: 100, Invulnerable: true, PersistenceRequired: true}
