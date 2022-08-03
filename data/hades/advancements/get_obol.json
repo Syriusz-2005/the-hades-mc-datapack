@@ -8,7 +8,7 @@
     "description": "Find an obol",
     "announce_to_chat": true,
     "hidden": false,
-    "frame": "goal"
+    "frame": "task"
   },
   "criteria": {
     "requirement": {
