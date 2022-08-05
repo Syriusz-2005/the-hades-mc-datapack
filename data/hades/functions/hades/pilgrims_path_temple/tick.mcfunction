@@ -11,6 +11,7 @@ execute as @a at @s if predicate hades:is_in_hades_dimension if entity @e[tag=ha
 #need to wait 80 ticks to be teleported
 execute as @a[scores={hades.teleport_timer=80..}] run advancement grant @s only hades:go_back_to_overworld
 execute as @a[scores={hades.teleport_timer=80..}] at @s in minecraft:overworld run tp ~ -50 ~
+execute as @a[scores={hades.teleport_timer=80..}] at @s run spawnpoint @s ~ ~ ~
 execute as @a[scores={hades.teleport_timer=80..}] run effect give @s levitation 6 255 true
 execute at @a[scores={hades.teleport_timer=1..}] run particle witch ~ ~ ~ 0.4 0 0.4 0 1 normal
 
