@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "item": "golden_helmet"
+    },
+    "title": "Unstoppable!",
+    "description": "Cover yourself in an armor, the world has never seen before",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "enchantments": [
+                {
+                  "enchantment": "protection",
+                  "levels": 7
+                }
+              ],
+              "nbt": "{tag: \"hades.treasure_golden_armor\"}"
+            },
+            "legs": {
+              "enchantments": [
+                {
+                  "enchantment": "fire_protection",
+                  "levels": 7
+                }
+              ],
+              "nbt": "{tag: \"hades.treasure_golden_armor\"}"
+            },
+            "feet": {
+              "enchantments": [
+                {
+                  "enchantment": "blast_protection",
+                  "levels": 8
+                }
+              ],
+              "nbt": "{tag: \"hades.treasure_golden_armor\"}"
+            },
+            "chest": {
+              "enchantments": [
+                {
+                  "enchantment": "projectile_protection",
+                  "levels": 6
+                }
+              ],
+              "nbt": "{tag: \"hades.treasure_golden_armor\"}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "hades:root",
+  "requirements": [
+    ["requirement"]
+  ]
+}
