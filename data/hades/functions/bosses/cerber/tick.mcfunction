@@ -5,9 +5,10 @@ execute unless entity @e[sort=nearest,limit=1,tag=hades.fountain_teleport_provid
 
 execute if score %timer_160_tick hades_timers matches 1 run function hades:bosses/cerber/roar
 
-execute if block ~ ~ ~ water run tp ~ ~0.2 ~
-execute if block ~-0.3 ~ ~ water run data merge entity @s {Motion: [0.0d, 0.0d, 0.1d]}
-execute if block ~0.3 ~ ~ water run data merge entity @s {Motion: [0.0d, 0.0d, -0.0d]}
-execute if block ~ ~ ~-0.3 water run data merge entity @s {Motion: [0.2d, 0.0d, 0.0d]}
-execute if block ~ ~ ~0.3 water run data merge entity @s {Motion: [-0.1d, 0.0d, 0.0d]}
+execute if block ~ ~ ~ water run tp ~ ~0.4 ~
+execute if block ~-0.3 ~ ~ water run data modify entity @s Motion[2] set value 0.1d
+execute if block ~0.3 ~ ~ water run data modify entity @s Motion[2] set value -0.1d
+execute if block ~ ~ ~-0.3 water run data modify entity @s Motion[0] set value 0.1d
+execute if block ~ ~ ~0.3 water run data modify entity @s Motion[0] set value -0.1d
 
+execute unless entity @s[nbt={Passengers:[{id:"minecraft:zombie"}]}] run function hades:bosses/cerber/replace
