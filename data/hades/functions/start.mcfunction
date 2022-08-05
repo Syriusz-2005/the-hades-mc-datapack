@@ -26,3 +26,6 @@ scoreboard objectives add hades.time_without_cobol dummy
 #declare tag/item hades.wodden_pipe
 
 tellraw @a {"text": "The hades datapack is enabled!"}
+
+#a place used in some stupid situations
+execute in hades:hades run forceload add 0 0
