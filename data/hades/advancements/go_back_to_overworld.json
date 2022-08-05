@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "water_bucket"
+    },
+    "title": "Home, sweet home!",
+    "description": "Discover the true depth of a fountain",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "hades:use_pipe_near_cerber",
+  "requirements": [
+    ["requirement"]
+  ]
+}
