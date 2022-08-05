@@ -4,6 +4,8 @@ import JsZip from 'jszip';
 
 const zip = new JsZip();
 
+const name = process.argv[2] ?? "deep-dark-expansion-v1.zip";
+
 (async () => {
   try {
     const mcMeta = await fs.readFile('./pack.mcmeta');
@@ -31,7 +33,7 @@ const zip = new JsZip();
     await read([ 'data' ]);
 
     zip.generateNodeStream({ type: 'nodebuffer', streamFiles: true })
-      .pipe(FS.createWriteStream('deep-dark-expansion-v1.zip'))
+      .pipe(FS.createWriteStream(name))
       .on('finish', function () {
           console.log("zip file written");
       });

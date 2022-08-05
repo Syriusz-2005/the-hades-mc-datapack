@@ -2,6 +2,8 @@
 #declare tag hades.fountain_teleport_provider "It is used to add teleport functionality for the pilgrim's path temple"
 #declare tag hades.cerber
 #declare tag hades.cerberus_spawner "It is used to spawn the cerberus in the temple"
+#declare tag hades.cerberus_zombie_ai
+
 
 #needed for the datapack to work properly
 gamerule doImmediateRespawn true
@@ -24,3 +26,6 @@ scoreboard objectives add hades.time_without_cobol dummy
 #declare tag/item hades.wodden_pipe
 
 tellraw @a {"text": "The hades datapack is enabled!"}
+
+#a place used in some stupid situations
+execute in hades:hades run forceload add 0 0
