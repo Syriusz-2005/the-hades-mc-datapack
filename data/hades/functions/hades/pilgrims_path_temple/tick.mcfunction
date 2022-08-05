@@ -8,8 +8,10 @@ execute as @a at @s if predicate hades:is_in_hades_dimension unless entity @e[ta
 execute as @a at @s if predicate hades:is_in_hades_dimension if entity @e[tag=hades.fountain_teleport_provider,distance=..14] unless block ~ ~ ~ water run scoreboard players reset @s hades.teleport_timer
 
 
-execute as @a[scores={hades.teleport_timer=60..}] at @s in minecraft:overworld run tp ~ -50 ~
-execute as @a[scores={hades.teleport_timer=60..}] run effect give @s levitation 6 255 true
+#need to wait 80 ticks to be teleported
+execute as @a[scores={hades.teleport_timer=80..}] at @s in minecraft:overworld run tp ~ -50 ~
+execute as @a[scores={hades.teleport_timer=80..}] run effect give @s levitation 6 255 true
+execute at @a[scores={hades.teleport_timer=1..}] run particle witch ~ ~ ~ 0.4 0 0.4 0 1 normal
 
 
 #spawning cerberus
