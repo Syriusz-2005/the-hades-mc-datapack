@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "polished_diorite"
+    },
+    "title": "A very Religous pilgrim",
+    "description": "Visit every pilgrims path temple type",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "plains": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "hades:pilgrims_path_temple/temple_1"
+          }
+        }
+      }
+    },
+    "warm": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "hades:pilgrims_path_temple/warm"
+          }
+        }
+      }
+    },
+    "underground": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "hades:pilgrims_path_temple/underground"
+          }
+        }
+      }
+    }
+  },
+  "parent": "hades:root",
+  "requirements": [
+    ["plains"],
+    ["warm"],
+    ["underground"]
+  ]
+}
