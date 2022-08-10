@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:7411010,Tags:[aegis],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Amount:0.2,Slot:offhand,Name:\"generic.knockback_resistance\",UUID:[I;-12276,29211,172517,-58422]},{AttributeName:\"generic.armor_toughness\",Amount:4,Slot:offhand,Name:\"generic.armor_toughness\",UUID:[I;-12276,29311,172517,-58622]}],display:{Name:'[{\"text\":\"Aegis\",\"italic\":false,\"color\":\"light_purple\"}]',Lore:['[{\"text\":\"A device carried by the Mighty\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"Ones, featuring a head of dreadful\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"Gorgon embeded in the center. It\\'s\",\"italic\":false,\"color\":\"dark_gray\"}]','[{\"text\":\"scary to even look at!\",\"italic\":false,\"color\":\"dark_gray\"}]']},HideFlags:2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
