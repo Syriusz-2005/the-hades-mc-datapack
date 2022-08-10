@@ -15,6 +15,7 @@ scoreboard objectives add hades_wind_timer dummy
 scoreboard objectives add hades.teleport_timer dummy
 scoreboard objectives add hades.carrot_on_a_stick_used used:carrot_on_a_stick
 scoreboard objectives add hades.pipe_usage_cap dummy
+scoreboard objectives add hades.slowed_cerberus_timer dummy
 
 scoreboard objectives add hades.time_without_cobol dummy
 

@@ -85,6 +85,19 @@
           "output_state": {
             "Name": "sand"
           }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "block_match",
+            "block": "coarse_dirt"
+          },
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "sandstone"
+          },
+          "output_state": {
+            "Name": "coarse_dirt"
+          }
         }
       ]
     }

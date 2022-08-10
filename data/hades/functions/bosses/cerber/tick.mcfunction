@@ -13,3 +13,6 @@ execute if block ~ ~ ~0.3 water run data modify entity @s Motion[0] set value 0.
 
 execute unless entity @s[nbt={Passengers:[{Tags: [ "hades.cerberus_zombie_ai" ]}]}] run function hades:bosses/cerber/replace
 
+execute if entity @s[scores={hades.slowed_cerberus_timer=1..}] run scoreboard players remove @s hades.slowed_cerberus_timer 1
+execute unless entity @s[scores={hades.slowed_cerberus_timer=-2147483648..2147483647}] run scoreboard players set @s hades.slowed_cerberus_timer 0
+

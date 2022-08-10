@@ -4,7 +4,7 @@
       "item": "polished_diorite"
     },
     "title": "A very Religous pilgrim",
-    "description": "Visit every pilgrims path temple type",
+    "description": "Visit all types of pilgrims path temple",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "challenge"
