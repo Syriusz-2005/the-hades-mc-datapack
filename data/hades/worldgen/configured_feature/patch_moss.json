@@ -20,23 +20,20 @@
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+              "type": "minecraft:matching_blocks",
+              "blocks": "air"
           }
         },
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
+            "type": "minecraft:matching_block_tag",
+            "tag": "hades:moss_placeable",
+            "offset": [
                 0,
                 -1,
                 0
-              ],
-              "blocks": "minecraft:moss_carpet"
-            }
+            ]
           }
         }
       ]
