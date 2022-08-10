@@ -4,7 +4,7 @@
       "item": "water_bucket"
     },
     "title": "Home, sweet home!",
-    "description": "Discover the true depth of a fountain",
+    "description": "Use the fountain to travel back to the overworld",
     "announce_to_chat": true,
     "hidden": false,
     "frame": "task"
