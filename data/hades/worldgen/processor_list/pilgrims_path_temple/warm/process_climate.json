@@ -100,6 +100,24 @@
           }
         }
       ]
+    },
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "random_block_match",
+            "block": "acacia_leaves",
+            "probability": 0.3
+          },
+          "output_state": {
+            "Name": "air"
+          }
+        }
+      ]
     }
   ]
 }
