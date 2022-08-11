@@ -64,6 +64,24 @@
         "location": "hades:pilgrims_path_temple/warm/path"
       },
       "weight": 10
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/path_2"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "terrain_matching",
+        "processors": "hades:pilgrims_path_temple/warm/process_climate",
+        "location": "hades:pilgrims_path_temple/warm/building_empty"
+      },
+      "weight": 9
     }
   ]
 }
