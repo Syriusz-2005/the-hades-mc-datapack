@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:blindness": {
+        "duration": {
+          "min": 30,
+          "max": 2147483647
+        }
+      }
+    }
+  }
+}
