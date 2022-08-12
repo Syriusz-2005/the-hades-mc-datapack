@@ -17,6 +17,7 @@ scoreboard objectives add hades.carrot_on_a_stick_used used:carrot_on_a_stick
 scoreboard objectives add hades.pipe_usage_cap dummy
 scoreboard objectives add hades.slowed_cerberus_timer dummy
 
+scoreboard objectives add hades.ticks_stoned dummy
 scoreboard objectives add hades.time_without_cobol dummy
 
 #declare score_holder %timer_10_tick hades_timers
