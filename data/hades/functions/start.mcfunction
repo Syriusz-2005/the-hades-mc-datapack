@@ -19,6 +19,7 @@ scoreboard objectives add hades.slowed_cerberus_timer dummy
 
 scoreboard objectives add hades.ticks_stoned dummy
 scoreboard objectives add hades.time_without_cobol dummy
+scoreboard objectives add hades.aegis_range dummy
 
 #declare score_holder %timer_10_tick hades_timers
 #declare score_holder %timer_100_tick hades_timers
