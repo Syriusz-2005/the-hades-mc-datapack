@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#impact_projectiles",
+    "area_effect_cloud",
+    "armor_stand",
+    "boat",
+    "minecart",
+    "chest_minecart",
+    "command_block_minecart",
+    "item",
+    "item_frame",
+    "glow_item_frame",
+    "falling_block",
+    "experience_bottle",
+    "experience_orb",
+    "marker",
+    "leash_knot",
+    "lightning_bolt",
+    "painting"
+  ]
+}

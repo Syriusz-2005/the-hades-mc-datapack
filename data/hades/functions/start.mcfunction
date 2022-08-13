@@ -3,7 +3,7 @@
 #declare tag hades.cerber
 #declare tag hades.cerberus_spawner "It is used to spawn the cerberus in the temple"
 #declare tag hades.cerberus_zombie_ai
-
+#declare tag hades.gorgona_caster
 
 #needed for the datapack to work properly
 gamerule doImmediateRespawn true
@@ -17,7 +17,9 @@ scoreboard objectives add hades.carrot_on_a_stick_used used:carrot_on_a_stick
 scoreboard objectives add hades.pipe_usage_cap dummy
 scoreboard objectives add hades.slowed_cerberus_timer dummy
 
+scoreboard objectives add hades.ticks_stoned dummy
 scoreboard objectives add hades.time_without_cobol dummy
+scoreboard objectives add hades.aegis_range dummy
 
 #declare score_holder %timer_10_tick hades_timers
 #declare score_holder %timer_100_tick hades_timers
