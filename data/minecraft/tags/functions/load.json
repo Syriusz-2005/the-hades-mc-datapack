@@ -1,5 +1,6 @@
 {
   "values": [
-    "hades:start"
+    "hades:start",
+    "hades:weeping_angels/on_ready"
   ]
 }
