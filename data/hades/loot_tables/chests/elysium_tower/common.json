@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "quartz_pillar",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "quartz_slab",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "smooth_quartz",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "hades:items/grapes",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 0,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "hades:items/aegis",
+          "conditions": [
+            {
+              "condition": "random_chance",
+              "chance": 0.16
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

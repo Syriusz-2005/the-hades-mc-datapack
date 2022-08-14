@@ -40,8 +40,21 @@
               "search_radius": 100,
               "skip_existing_chunks": false,
               "zoom": 1
+            },
+            {
+              "function": "set_name",
+              "name": "Exploration map"
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "hades:chests/elysium_tower/common"
         }
       ]
     }
