@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "hades:elysian_brewery",
-        "processors": "minecraft:empty"
+        "processors": "hades:elysian_brewery"
       },
       "weight": 1
     }
