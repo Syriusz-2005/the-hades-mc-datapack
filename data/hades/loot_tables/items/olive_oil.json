@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionColor:13550953,display:{Name:'[{\"text\":\"Olive Oil\",\"italic\":false,\"color\":\"aqua\"}]'},CustomPotionEffects:[{Id:22,Duration:1200,Amplifier:1},{Id:11,Duration:4800},{Id:23,Duration:1,Amplifier:8}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
