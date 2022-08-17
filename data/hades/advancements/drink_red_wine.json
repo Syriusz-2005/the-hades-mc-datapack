@@ -1,0 +1,26 @@
+{
+	"display": {
+			"icon": {
+					"item": "minecraft:potion",
+					"nbt": "{CustomPotionColor:7539223}"
+			},
+			"title": "You made Dionysus proud!",
+			"description": "Drink red wine and get drunk"
+	},
+	"criteria": {
+		"drink_wine": {
+			"trigger": "consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{Tag:\"hades.red_wine\"}"
+				}
+			}
+		}
+	},
+	"parent": "hades:trade_with_elysian_brewer",
+	"requirements": [
+		[
+			"drink_wine"
+		]
+	]
+}
