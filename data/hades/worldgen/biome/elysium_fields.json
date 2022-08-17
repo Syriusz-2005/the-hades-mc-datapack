@@ -10,7 +10,16 @@
     "grass_color": 694321,
     "foliage_color": 2127140
   },
-  "spawners": {},
+  "spawners": {
+    "creature":[
+        {
+            "type": "minecraft:allay",
+            "weight": 1,
+            "minCount": 0,
+            "maxCount": 1
+        }
+    ]
+  },
   "spawn_costs": {},
   "carvers": {},
   "features": [
