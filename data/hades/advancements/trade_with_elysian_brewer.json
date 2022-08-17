@@ -5,7 +5,8 @@
       "nbt": "{CustomModelData:7411102}"
     },
     "title": "Quest Complete!",
-    "description": "Make a deal out of this world"
+    "description": "Make a deal out of this world",
+    "frame": "challenge"
   },
   "parent": "hades:visit_elysium",
   "criteria": {
