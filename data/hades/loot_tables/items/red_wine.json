@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomPotionColor:7539223,display:{Name:'[{\"text\":\"Red wine\",\"italic\":false,\"color\":\"aqua\"}]'},CustomPotionEffects:[{Id:3,Duration:1800},{Id:6,Duration:1,Amplifier:1},{Id:5,Duration:2400,Amplifier:1},{Id:9,Duration:3000}]}"
+              "tag": "{Tag:\"hades.red_wine\",CustomPotionColor:7539223,display:{Name:'[{\"text\":\"Red wine\",\"italic\":false,\"color\":\"aqua\"}]'},CustomPotionEffects:[{Id:3,Duration:1800},{Id:6,Duration:1,Amplifier:1},{Id:5,Duration:2400,Amplifier:1},{Id:9,Duration:3000}]}"
             }
           ]
         }

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald",
+      "nbt": "{CustomModelData:7411102}"
+    },
+    "title": "Quest Complete!",
+    "description": "Make a deal out of this world",
+    "frame": "challenge"
+  },
+  "parent": "hades:visit_elysium",
+  "criteria": {
+    "make_deal": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "nbt": "{Tags:[\"hades.elysian_brewer\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "make_deal"
+    ]
+  ]
+}
