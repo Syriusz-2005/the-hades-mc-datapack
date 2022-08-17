@@ -1,6 +1,6 @@
 {
-  "temperature": 0.9,
-  "downfall": 0.4,
+  "temperature": 0.8,
+  "downfall": 0.8,
   "precipitation": "none",
   "effects": {
     "sky_color": 7907327,
@@ -11,7 +11,7 @@
     "foliage_color": 2129468,
     "particle": {
       "options": {
-        "type": "soul"
+        "type": "dust"
       },
       "probability": 0.0003
     }
@@ -27,7 +27,8 @@
       "hades:ores/glided_blackstone"
     ],
     [
-      "hades:hades/grape_vines"
+      "hades:hades/grape_vines",
+      "hades:hades/trees"
     ]
   ]
 }

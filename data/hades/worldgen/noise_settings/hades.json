@@ -205,6 +205,67 @@
         "result_state": {
           "Name": "blackstone"
         }
+      },
+      {
+        "type": "condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": ["hades:hades_forest"]
+        },
+        "then_run": {
+          "type": "condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 73
+            },
+            "surface_depth_multiplier": 1,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "sequence",
+            "sequence": [
+              {
+                "type": "condition",
+                "if_true": {
+                  "type": "stone_depth",
+                  "add_surface_depth": false,
+                  "offset": 0,
+                  "secondary_depth_range": 0,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:grass_block"
+                  }
+                }
+              },
+              {
+                "type": "condition",
+                "if_true": {
+                  "type": "stone_depth",
+                  "add_surface_depth": true,
+                  "offset": -1,
+                  "secondary_depth_range": 2,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:dirt"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "blackstone"
+        }
       }
     ]
   }
