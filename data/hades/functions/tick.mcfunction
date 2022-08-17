@@ -1,4 +1,4 @@
-
+function hades:mobs/tick
 execute in hades:hades run function hades:hades/biome_tick
 execute in hades:hades run function hades:hades/structure_tick
 execute as @e[type=marker,tag=hades.fountain_soul_sand_provider] at @s run function hades:overworld/soul_sand_provider/run

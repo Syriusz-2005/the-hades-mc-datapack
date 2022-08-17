@@ -1,0 +1,15 @@
+{
+  "name": "hades:elysian_brewery",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "hades:elysian_brewery",
+        "processors": "hades:elysian_brewery"
+      },
+      "weight": 1
+    }
+  ]
+}

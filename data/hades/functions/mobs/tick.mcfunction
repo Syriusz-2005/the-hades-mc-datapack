@@ -1,0 +1,1 @@
+execute as @e[tag=hades.elysian_brewer,type=villager] run item replace entity @s weapon.mainhand with emerald{CustomModelData:7411101}
