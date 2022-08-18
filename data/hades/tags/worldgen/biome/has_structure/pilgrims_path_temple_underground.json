@@ -43,6 +43,6 @@
     "mangrove_swamp",
     "sunflower_plains",
     "stony_shore",
-    "#hades:has_structure/pilgrims_path_temple_cold"
+    "#hades:has_structure/cold"
   ]
 }

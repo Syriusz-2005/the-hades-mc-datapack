@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_courtyard_hall"
+        "location": "hades:pilgrims_path_temple/courtyard_hall"
       },
       "weight": 10
     },
@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_courtyard_hall_corner"
+        "location": "hades:pilgrims_path_temple/courtyard_hall_corner_1"
       },
       "weight": 10
     },
@@ -25,7 +25,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_courtyard_hall_entrance"
+        "location": "hades:pilgrims_path_temple/courtyard_hall_entrance"
       },
       "weight": 3
     }

@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "hades:pilgrims_path_temple/pilgrims_path_temple_fountain"
+        "location": "hades:pilgrims_path_temple/fountain"
       },
       "weight": 10
     }

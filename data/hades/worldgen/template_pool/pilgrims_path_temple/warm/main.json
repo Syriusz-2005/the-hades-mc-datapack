@@ -61,7 +61,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
         "processors": "hades:pilgrims_path_temple/warm/process_climate",
-        "location": "hades:pilgrims_path_temple/warm/path"
+        "location": "hades:pilgrims_path_temple/warm/path_1"
       },
       "weight": 10
     },
