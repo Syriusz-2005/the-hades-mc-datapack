@@ -7,7 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "processors": "minecraft:empty",
-        "location": "hades:pilgrims_path_temple/underground_entrance"
+        "location": "hades:pilgrims_path_temple/normal/underground_entrance"
       },
       "weight": 10
     },
