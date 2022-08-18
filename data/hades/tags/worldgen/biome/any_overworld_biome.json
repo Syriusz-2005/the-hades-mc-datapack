@@ -1,8 +1,8 @@
 {
   "values": [
-    "#hades:has_structure/cold",
-    "#hades:has_structure/plains",
-    "#hades:has_structure/underground",
-    "#hades:has_structure/warm"
+    "#hades:has_structure/pilgrims_path_temple_cold",
+    "#hades:has_structure/pilgrims_path_temple_plains",
+    "#hades:has_structure/pilgrims_path_temple_underground",
+    "#hades:has_structure/pilgrims_path_temple_warm"
   ]
 }
