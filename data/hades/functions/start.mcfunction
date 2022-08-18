@@ -4,6 +4,7 @@
 #declare tag hades.cerberus_spawner "It is used to spawn the cerberus in the temple"
 #declare tag hades.cerberus_zombie_ai
 #declare tag hades.gorgona_caster
+#declare tag hades.elysian_brewer
 
 #needed for the datapack to work properly
 gamerule doImmediateRespawn true
