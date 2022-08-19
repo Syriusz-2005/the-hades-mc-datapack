@@ -9,5 +9,5 @@ jobs:
         with:
           source: ./
           minecraft: '1.19'
-          stats: true
+          stats: data/**/*.mcfunction
           version: '0.52.2'
