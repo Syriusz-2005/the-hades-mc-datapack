@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: mcbeet/check-commands@v1
         with:
-          source: ./
+          source: data/**/*.mcfunction
           minecraft: '1.19'
-          stats: data/**/*.mcfunction
+          stats: true
           version: '0.52.2'
