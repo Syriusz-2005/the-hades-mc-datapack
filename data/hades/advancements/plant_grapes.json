@@ -12,7 +12,7 @@
       "hidden": true
   },
   "criteria": {
-    "plant grapes": {
+    "plant_grapes": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "item": {
@@ -24,7 +24,7 @@
   "parent": "hades:go_to_the_hades",
   "requirements": [
     [
-      "plant grapes"
+      "plant_grapes"
     ]
   ]
 }
