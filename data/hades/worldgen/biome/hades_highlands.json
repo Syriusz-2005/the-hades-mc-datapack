@@ -22,7 +22,7 @@
             "type": "minecraft:vex",
             "weight": 1,
             "minCount": 0,
-            "maxCount": 4
+            "maxCount": 1
         }
     ]
   },
