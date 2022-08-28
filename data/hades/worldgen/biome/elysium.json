@@ -3,8 +3,8 @@
   "downfall": 0.4,
   "precipitation": "none",
   "effects": {
-    "sky_color": 9883901,
-    "fog_color": 16777215,
+    "sky_color": 6534377,
+    "fog_color": 6534377,
     "water_color": 3589849,
     "water_fog_color": 2476983,
     "grass_color": 2071817,
