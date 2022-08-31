@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "drink nectar": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "honey_bottle"
+          ],
+          "nbt": "{Tag:\"hades.nectar\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "drink nectar"
+    ]
+  ],
+  "rewards": {
+    "function": "hades:items/drank_nectar"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bread",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "text": "Ambrosia",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{Tag:\"hades.ambrosia\",CustomModelData:7411006}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

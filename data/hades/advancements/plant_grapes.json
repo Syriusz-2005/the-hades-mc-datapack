@@ -1,0 +1,30 @@
+{
+  "display": {
+      "icon": {
+          "item": "minecraft:glow_berries",
+          "nbt": "{CustomModelData: 7411003}"
+      },
+      "title": {
+        "text": "Wait, that's illegal",
+        "italic": true
+      },
+      "description": "use grapes on a celling, thus planting cave vines",
+      "hidden": true
+  },
+  "criteria": {
+    "plant_grapes": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "nbt": "{Tag:\"hades.grapes_purple\"}"
+        }
+      }
+    }
+  },
+  "parent": "hades:go_to_the_hades",
+  "requirements": [
+    [
+      "plant_grapes"
+    ]
+  ]
+}

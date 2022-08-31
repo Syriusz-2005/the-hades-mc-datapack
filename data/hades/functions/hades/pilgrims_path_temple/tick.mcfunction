@@ -14,6 +14,7 @@ execute as @a[scores={hades.teleport_timer=80..}] at @s in minecraft:overworld r
 execute as @a[scores={hades.teleport_timer=80..}] at @s run spawnpoint @s ~ ~ ~
 execute as @a[scores={hades.teleport_timer=80..}] run effect give @s levitation 6 255 true
 execute at @a[scores={hades.teleport_timer=1..}] run particle witch ~ ~ ~ 0.4 0 0.4 0 1 normal
+execute at @a[scores={hades.teleport_timer=1..}] run effect give @s nausea 1 0 true
 
 
 #spawning cerberus

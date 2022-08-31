@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "eat ambrosia": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "bread"
+          ],
+          "nbt": "{Tag:\"hades.ambrosia\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "eat ambrosia"
+    ]
+  ],
+  "rewards": {
+    "function": "hades:items/ate_ambrosia"
+  }
+}
