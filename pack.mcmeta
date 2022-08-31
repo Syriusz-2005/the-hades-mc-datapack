@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 10,
-    "description": [ { "text": "The hades datapack that adds a complete new dimension", "color": "red", "bold": true } ]
+    "description": [ { "text": "It adds a new 'Hades' dimension", "color": "red", "bold": true } ]
   }
 }
