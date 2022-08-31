@@ -9,6 +9,11 @@ const name = process.argv[2] ?? "deep-dark-expansion-v1.zip";
 (async () => {
   try {
     const mcMeta = await fs.readFile('./pack.mcmeta');
+    try {
+      const image = await fs.readFile('./pack.png');
+      zip.file('pack.png', image);
+    } catch (e) {}
+    
     zip.file('pack.mcmeta', mcMeta);
 
     /**

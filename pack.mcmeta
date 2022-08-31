@@ -1,6 +1,6 @@
 {
   "pack": {
     "pack_format": 10,
-    "description": [ { "text": "It adds a new 'Hades' dimension", "color": "red", "bold": true } ]
+    "description": [ { "text": "It adds a new mysterious dimension", "color": "#5d7fe7", "bold": false } ]
   }
 }
