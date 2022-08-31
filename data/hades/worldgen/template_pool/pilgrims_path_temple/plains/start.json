@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/fountain"
       },
       "weight": 10

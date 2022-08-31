@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/courtyard_hall"
       },
       "weight": 10
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/courtyard_hall_corner"
       },
       "weight": 10
@@ -24,7 +24,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/courtyard_hall_entrance"
       },
       "weight": 3

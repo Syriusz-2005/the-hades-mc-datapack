@@ -6,7 +6,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/garden_path_1"
       },
       "weight": 10
@@ -15,7 +15,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "terrain_matching",
-        "processors": "minecraft:empty",
+        "processors": "hades:pilgrims_path_temple/plains/remove_lava",
         "location": "hades:pilgrims_path_temple/normal/garden_path_2"
       },
       "weight": 10
