@@ -21,5 +21,8 @@ execute at @a[scores={hades.teleport_timer=1..}] run effect give @s nausea 1 0 t
 execute as @e[tag=hades.cerberus_spawner] at @s if predicate hades:is_in_hades_dimension run function hades:bosses/cerber/summon
 execute as @e[tag=hades.cerberus_spawner] run kill @s
 
+#placing water
+execute as @e[tag=hades.water_placer] at @s run setblock ~ ~ ~ water
+execute as @e[tag=hades.water_placer] at @s run kill @s
 
 execute as @e[tag=hades.fountain_teleport_provider] at @s if entity @p[distance=..8] unless entity @e[tag=hades.cerber,distance=..8] at @p facing entity @e[tag=hades.fountain_teleport_provider,sort=nearest,limit=1] feet run tp @e[tag=hades.cerber,sort=nearest,limit=1,distance=..100,scores={hades.slowed_cerberus_timer=..1}] ^ ^ ^4

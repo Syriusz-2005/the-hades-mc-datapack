@@ -5,6 +5,7 @@
 #declare tag hades.cerberus_zombie_ai
 #declare tag hades.gorgona_caster
 #declare tag hades.elysian_brewer
+#declare tag hades.water_placer "Will place water on Its position"
 
 #needed for the datapack to work properly
 gamerule doImmediateRespawn true

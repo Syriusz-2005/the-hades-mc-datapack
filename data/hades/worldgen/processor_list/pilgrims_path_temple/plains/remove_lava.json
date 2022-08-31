@@ -1,0 +1,21 @@
+{
+  "processors": [
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "block_match",
+            "block": "lava"
+          },
+          "location_predicate": {
+            "predicate_type": "always_true"
+          },
+          "output_state": {
+            "Name": "grass_block"
+          }
+        }
+      ]
+    }
+  ]
+}
